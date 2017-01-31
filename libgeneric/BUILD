@@ -1,0 +1,10 @@
+python_library(
+  name='libgeneric',
+  dependencies=[
+    '3rdparty/python:boto',
+    '3rdparty/python:boto3',
+    '3rdparty/python:enum34',
+    '3rdparty/python:more-itertools'
+  ],
+  sources=rglobs('*.py'),
+)
